@@ -15,3 +15,6 @@ requests
 langchain_huggingface
 sentence-transformers
 streamlit
+chromadb
+pypdf
+docling
