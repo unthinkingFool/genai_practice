@@ -14,3 +14,4 @@ uvicorn
 requests
 langchain_huggingface
 sentence-transformers
+streamlit
