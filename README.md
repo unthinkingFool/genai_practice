@@ -1,70 +1,16 @@
-# 🤖 GenAI Practice Repository
+#  GenAI Practice Repository
 
 A hands-on learning repository for Generative AI — covering chat models, embedding models, LangChain, LangGraph, RAG pipelines, vector databases, and AI agent tools.
 
 ---
 
-## 📌 About This Repo
+##  About This Repo
 
 This repo documents my journey learning **Generative AI from the ground up**. Every folder contains working code, experiments, and notes from real practice sessions. The goal is to build a solid foundation in LLMs and AI agent development.
 
----
 
-## 🗂️ Repository Structure
 
-```
-genai-practice/
-│
-├── 01_chat_models/          # Interacting with LLMs via APIs (OpenAI, Groq, Anthropic, etc.)
-│   ├── basic_chat.py
-│   ├── streaming.py
-│   └── system_prompts.py
-│
-├── 02_embedding_models/     # Text embeddings, similarity search, cosine distance
-│   ├── basic_embeddings.py
-│   └── similarity_search.py
-│
-├── 03_langchain/            # LangChain chains, prompt templates, output parsers
-│   ├── prompt_templates.py
-│   ├── chains.py
-│   ├── output_parsers.py
-│   └── memory.py
-│
-├── 04_langgraph/            # Stateful multi-agent workflows with LangGraph
-│   ├── simple_graph.py
-│   ├── conditional_edges.py
-│   └── multi_agent_pipeline.py
-│
-├── 05_rag/                  # Retrieval-Augmented Generation pipelines
-│   ├── document_loader.py
-│   ├── text_splitter.py
-│   ├── retrieval_chain.py
-│   └── rag_pipeline.py
-│
-├── 06_vector_databases/     # Working with FAISS, Chroma, Pinecone, Qdrant
-│   ├── faiss_demo.py
-│   ├── chroma_demo.py
-│   └── pinecone_demo.py
-│
-├── 07_agent_tools/          # Building and using tools with LLM agents
-│   ├── custom_tools.py
-│   ├── search_agent.py
-│   └── tool_calling.py
-│
-├── 08_projects/             # End-to-end mini projects combining everything
-│   └── research_pipeline/   # Multi-agent research assistant (LangGraph + Tavily)
-│
-├── notes/                   # Personal notes and concept summaries
-│   ├── concepts.md
-│   └── resources.md
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🧠 Topics Covered
+##  Topics Covered
 
 | Area | Topics |
 |---|---|
@@ -78,7 +24,7 @@ genai-practice/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Clone the repository
 
@@ -116,7 +62,7 @@ LANGCHAIN_TRACING_V2=true                 # Optional
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **LLMs** — OpenAI GPT, Groq (LLaMA 3), Anthropic Claude
 - **Frameworks** — LangChain, LangGraph
@@ -137,23 +83,8 @@ A LangGraph-based multi-agent system that takes a research query, searches the w
 
 **Stack:** LangGraph · LangChain · Groq (`llama-3.3-70b-versatile`) · Tavily · Streamlit
 
----
 
-## 📈 Learning Roadmap
-
-- [x] Chat model basics & API usage
-- [x] Embeddings & semantic similarity
-- [x] LangChain prompt templates & chains
-- [x] LangGraph stateful agent graphs
-- [x] RAG pipeline with vector databases
-- [x] Agent tools (Tavily, custom tools)
-- [ ] Fine-tuning open-source models
-- [ ] LLMOps & deployment (LangSmith, MLflow)
-- [ ] Production-grade agent systems
-
----
-
-## 📚 Resources
+##  Resources
 
 - [LangChain Docs](https://docs.langchain.com)
 - [LangGraph Docs](https://langchain-ai.github.io/langgraph/)
@@ -164,11 +95,11 @@ A LangGraph-based multi-agent system that takes a research query, searches the w
 
 ---
 
-## 🙋 Author
+##  Author
 
 **Swapnil**
-Learning GenAI one agent at a time. 🚀
+Learning GenAI one agent at a time. 
 
 ---
 
-> ⭐ If you find this helpful, feel free to star the repo!
+>  If you find this helpful, feel free to star the repo!
