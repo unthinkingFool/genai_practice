@@ -72,17 +72,6 @@ LANGCHAIN_TRACING_V2=true                 # Optional
 - **UI** — Streamlit (for interactive demos)
 - **Language** — Python 3.10+
 
----
-
-## 🚀 Featured Projects
-
-### 🔬 Multi-Agent Research Pipeline
-> `08_projects/research_pipeline/`
-
-A LangGraph-based multi-agent system that takes a research query, searches the web via Tavily, synthesizes findings, and returns a structured report.
-
-**Stack:** LangGraph · LangChain · Groq (`llama-3.3-70b-versatile`) · Tavily · Streamlit
-
 
 ##  Resources
 
